@@ -1,6 +1,6 @@
 #Este é um programa para ser rodado em Python
 
-print("ATENÇÃO: O quadrado da soma dos números digitados não pode ser maior que 100"
+print("ATENÇÃO: O quadrado da diferença dos números digitados não pode ser maior que 100"
 print("")
 
 entrada1 = int(input("1) Digite um número inteiro: "))
@@ -23,4 +23,4 @@ elif quadradodadiferenca > 100:
     print(erro, "ao quadrado é um número > 100")
   elif entrada3 <= b:
     print("")
-    print("OK! Tchau!")
+    print("OK! Tchau bro!")
