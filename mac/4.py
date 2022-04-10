@@ -6,6 +6,6 @@ entrada1 = int(input("1) Digite um número inteiro não negativo: "))
 entrada2 = int(input("2) Digite outro número inteiro não negativo: "))
 inteirodadivisao = (entrada1 // entrada2)
 
-while entrada1 >=0 and entrada2 >):
+while entrada1 >=0 and entrada2 >0:
   print("O número de maçãs a serem entregues a cada aluno é", inteirodadivisao)
   break
