@@ -1,5 +1,4 @@
-   
-#Este programa vai ler um número inteiro e imprimir o seu quadrado.
+  #Este programa vai ler um número inteiro e imprimir o seu quadrado.
 
 entrada = int(input("Digite um número inteiro: "))
 quadrado = entrada**2
