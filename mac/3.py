@@ -1,4 +1,4 @@
-#Este programa vai ler dois números inteiros e imprimir o quadrado da diferença entre eles.
+#Este algoritmo vai ler dois números inteiros e imprimir o quadrado da diferença entre eles.
 
 entrada1 = int(input("Digite um número inteiro: "))
 entrada2 = int(input("Digite outro número inteiro"))
