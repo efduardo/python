@@ -2,10 +2,10 @@
 
 #Este programa dirá a quantia de maçãs a ser entregue a cada aluno.
 
-entrada1 = int(input("Digite o numero total de maças: "))
-entrada2 = int(input("Digite o numero de alunos: "))
+entrada1 = int(input("Digite o número total de maçãs: "))
+entrada2 = int(input("Digite o número de alunos: "))
 inteirodadivisao = (entrada1 // entrada2)
 
-while entrada1 >=0 and entrada2 >0:
+while entrada1 >=0 and entrada2 > 0:
   print("O número de maçãs a serem entregues a cada aluno é", inteirodadivisao)
   break
