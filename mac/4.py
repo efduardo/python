@@ -2,8 +2,8 @@
 
 #Este programa dirá a quantia de maçãs a ser entregue a cada aluno.
 
-entrada1 = int(input("1) Digite um número inteiro não negativo: "))
-entrada2 = int(input("2) Digite outro número inteiro não negativo: "))
+entrada1 = int(input("Digite o numero total de maças: "))
+entrada2 = int(input("Digite o numero de alunos: "))
 inteirodadivisao = (entrada1 // entrada2)
 
 while entrada1 >=0 and entrada2 >0:
