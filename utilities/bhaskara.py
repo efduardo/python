@@ -4,9 +4,9 @@ import math
 
 print("Tendo uma equação do tipo ax² + bx + c = 0, vamos encontrar os valores de x")
 
-a = float(input("\nDigite o valor de a: "))
-b = float(input("Digite o valor de b: "))
-c = float(input("Digite o valor de c: "))
+a = float(input("\n1)Digite o valor de a: "))
+b = float(input("2)Digite o valor de b: "))
+c = float(input("3)Digite o valor de c: "))
 
 delta = (b**2) - (4*a*c)
 while delta >= 0:
