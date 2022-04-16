@@ -1,4 +1,4 @@
-Esta é uma calculadora para funções quadráticas.
+#Esta é uma calculadora para funções quadráticas.
 
 import math
 
