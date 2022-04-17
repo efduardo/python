@@ -1,6 +1,6 @@
 #Este é um programa que permite que o usuário encontre as propriedades dos elementos químicos presentes na Tabela Periódica.
 
-qualquer elemento da Tabela Periódica")
+print("Encontre qualquer elemento da Tabela Periódica")
 
 z = float(input("\nDigite o número atômico do elemento: "))
 
