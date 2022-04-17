@@ -30,3 +30,5 @@ elif z == 13:
     print("\nNome: Alumínio \nSímbolo: [Al] \nTipo: Metal \nNº atômico: 13; \nNº de prótons/elétrons: 13; \nMassa molecular: 26.982u; \nConfiguração eletrônica: 3s^2, 3p^1\n")
 elif z == 14:
     print("\nNome: Silício \nSímbolo: [Si] \nTipo: Semimetal \nNº atômico: 14; \nNº de prótons/elétrons: 14; \nMassa molecuclar: 28.086u; \nConfiguração eletrônica: 3s^2, 3p^2\n")
+elif z == 15:
+    print("\nNome: Fósforo \nSímbolo: [P] \nTipo: Ametal \nNº atômico: 15; \nNº de prótons/elétrons: 15; \nMassa molecuclar: 30.974u; \nConfiguração eletrônica: 3s^2, 3p^3\n")
