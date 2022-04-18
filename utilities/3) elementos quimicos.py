@@ -1,6 +1,6 @@
 #Este é um programa que permite que o usuário encontre as propriedades dos elementos químicos presentes na Tabela Periódica.
 
-print("Encontre qualquer elemento da Tabela Periódica")
+t("Encontre qualquer elemento da Tabela Periódica")
 
 z = float(input("\nDigite o número atômico do elemento: "))
 
@@ -25,7 +25,7 @@ elif z == 9:
 elif z == 10:
     print("\nNome: Neônio \nSímbolo: [Ne] \nTipo: Gás nobre \nNº atômico: 10 \nNº de prótons/elétrons: 10 \nMassa molecular: 20.18u \nConfiguração eletrônica: 1s^2, 2s^2, 2p^6\n")
 elif z == 11:
-    print("\nNome: Sódio \nSímbolo: [Na] \nTipo: Metal alcalino \nNº atômico: 1; \nNº de prótons/elétrons: 11 \nMassa molecuclar: 20.99u \nConfiguração eletrônica: 3s^1\n")
+    print("\nNome: Sódio \nSímbolo: [Na] \nTipo: Metal alcalino \nNº atômico: 1 \nNº de prótons/elétrons: 11 \nMassa molecuclar: 20.99u \nConfiguração eletrônica: 3s^1\n")
 elif z == 12:
     print("\nNome: Magnésio \nSímbolo: [Mg] \nTipo: Metal alcalino-terroso \nNº atômico: 12 \nNº de prótons/elétrons: 12 \nMassa molecular: 24.305u \nConfiguração eletrônica: 3s^2\n")
 elif z == 13:
@@ -97,12 +97,12 @@ elif z == 45:
 elif z == 46:
     print("\nNome: Paládio \nSímbolo: [Pd] \nTipo: Metal de transição \nNº atômico: 46 \nNº de prótons/elétrons: 46 \nMassa molecuclar: 106.42u \nConfiguração eletrônica: 4d^10, 5s^0\n")
 elif z == 47:
-    print("\nNome: Prata \nSímbolo: [Ag] \nTipo: Metal de transição \nNº atômico: 47 \nNº de prótons/elétrons: 47 \nMassa molecular: 107.868 \nConfiguração eletrônica: 4d^10, 5s^1\n")
+    print("\nNome: Prata \nSímbolo: [Ag] \nTipo: Metal de transição \nNº atômico: 47 \nNº de prótons/elétrons: 47 \nMassa molecular: 107.868u \nConfiguração eletrônica: 4d^10, 5s^1\n")
 elif z == 48:
     print("\nNome: Cádmio \nSímbolo: [Cd] \nTipo: Metal de transição \nNº atômico: 48 \nNº de prótons/elétrons: 48 \nMassa molecular: 112.411u \nConfiguração eletrônica: 4d^10, 5s^2\n")
 elif z == 49:
     print("\nNome: Índio \nSímbolo: [In] \nTipo: Metal \nNº atômico: 49 \nNº de prótons/elétrons: 49 \nMassa molecuclar: 114.818u \nConfiguração eletrônica: 4d^10, 5s^2, 5p^1\n")
-if z == 50:
+elif z == 50:
     print("\nNome: Estanho \nSímbolo: [Sn] \nTipo: Metal \nNº atômico: 50 \nNº de prótons/elétrons: 50 \nMassa molecular: 118.71u \nConfiguração eletrônica: 4d^10, 5s^2, 5p^2\n")
 elif z == 51:
     print("\nNome: Antimônio \nSímbolo: [Sb] \nTipo: Semimetal de transição \nNº atômico: 51 \nNº de prótons/elétrons: 51 \nMassa molecular: 121.76u \nConfiguração eletrônica: 4d^10, 5s^2, 5p^3\n")
@@ -116,3 +116,127 @@ elif z == 55:
     print("\nNome: Césio \nSímbolo: [Cs] \nTipo: Metal alcalino \nNº atômico: 55 \nNº de prótons/elétrons: 55 \nMassa molecular: 132.905u \nConfiguração eletrônica: 6s^1\n")
 elif z == 56:
     print("\nNome: Bário \nSímbolo: [Ba] \nTipo: Metal alcalino-terroso \nNº atômico: 56 \nNº de prótons/elétrons: 56 \nMassa molecuclar: 137.327u \nConfiguração eletrônica: 6s^2\n")
+elif z == 57:
+    print("\nNome: Lantânio \nSímbolo: [La] \nTipo: Ametal \nNº atômico: 57 \nNº de prótons/elétrons: 57 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 58:
+    print("\nNome: Cério \nSímbolo: [Ce] \nTipo: Gás nobre \nNº atômico: 58 \nNº de prótons/elétrons: 58 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 59:
+    print("\nNome: Praseodímio \nSímbolo: [Pr] \nTipo: Metal alcalino \nNº atômico: 59 \nNº de prótons/elétrons: 59 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 60:
+    print("\nNome: Neodímio \nSímbolo: [Nd] \nTipo: Metal alcalino-terroso \nNº atômico: 60 \nNº de prótons/elétrons: 60 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 61:
+    print("\nNome: Promécio \nSímbolo: [Pm] \nTipo: Semimetal \nNº atômico: 61 \nNº de prótons/elétrons: 61 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 62:
+    print("\nNome: Samários \nSímbolo: [Sm] \nTipo: Ametal \nNº atômico: 62 \nNº de prótons/elétrons: 62 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 63:
+    print("\nNome: Európio \nSímbolo: [Eu] \nTipo: Ametal \nNº atômico: 63 \nNº de prótons/elétrons: 63 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 64:
+    print("\nNome: Gadolínio \nSímbolo: [Gd] \nTipo: Ametal \nNº atômico: 64 \nNº de prótons/elétrons: 64 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 65:
+    print("\nNome: Térbio \nSímbolo: [Tb] \nTipo: Halogênio \nNº atômico: 65 \nNº de prótons/elétrons: 65 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 66:
+    print("\nNome: Disprósio \nSímbolo: [Dy] \nTipo: Gás nobre \nNº atômico: 66 \nNº de prótons/elétrons: 66 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 67:
+    print("\nNome: Hólmio \nSímbolo: [Ho] \nTipo: Metal alcalino \nNº atômico: 67 \nNº de prótons/elétrons: 67 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 68:
+    print("\nNome: Érbio \nSímbolo: [Er] \nTipo: Metal alcalino-terroso \nNº atômico: 68 \nNº de prótons/elétrons: 68 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 69:
+    print("\nNome: Túlio \nSímbolo: [Tm] \nTipo: Metal \nNº atômico: 69 \nNº de prótons/elétrons: 69 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 70:
+    print("\nNome: Itérbio \nSímbolo: [Yb] \nTipo: Semimetal \nNº atômico: 70 \nNº de prótons/elétrons: 70 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 71:
+    print("\nNome: Lutécio \nSímbolo: [Lu] \nTipo: Ametal \nNº atômico: 71 \nNº de prótons/elétrons: 71 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 72:
+    print("\nNome: Háfnio \nSímbolo: [Hf] \nTipo: Ametal \nNº atômico: 72 \nNº de prótons/elétrons: 72 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 73:
+    print("\nNome: Tântalo \nSímbolo: [Ta] \nTipo: Halogênio \nNº atômico: 73 \nNº de prótons/elétrons: 73 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 74:
+    print("\nNome: Tugstênio \nSímbolo: [W] \nTipo: Gás nobre \nNº atômico: 74 \nNº de prótons/elétrons: 74 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 75:
+    print("\nNome: Rênio \nSímbolo: [Re] \nTipo: Metal alcalino \nNº atômico: 75 \nNº de prótons/elétrons: 75 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 76:
+    print("\nNome: Ósmio \nSímbolo: [Os] \nTipo: Metal alcalino-terroso \nNº atômico: 76 \nNº de prótons/elétrons: 76 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 77:
+    print("\nNome: Irídio \nSímbolo: [Ir] \nTipo: Metal de transição \nNº atômico: 77 \nNº de prótons/elétrons: 77 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 78:
+    print("\nNome: Platina \nSímbolo: [Pt] \nTipo: Metal de transição \nNº atômico: 78 \nNº de prótons/elétrons: 78 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 79:
+    print("\nNome: Ouro \nSímbolo: [Au] \nTipo: Metal de transição \nNº atômico: 79 \nNº de prótons/elétrons: 79 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 80:
+    print("\nNome: Mercúrio \nSímbolo: [Hg] \nTipo: Metal de transição \nNº atômico: 80 \nNº de prótons/elétrons: 80 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 81:
+    print("\nNome: Tálio \nSímbolo: [Tl] \nTipo: Metal de transição \nNº atômico: 81 \nNº de prótons/elétrons: 81 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 82:
+    print("\nNome: Chumbo \nSímbolo: [Pb] \nTipo: Metal alcalino-terroso \nNº atômico: 82 \nNº de prótons/elétrons: 82 \nMassa molecular: u \nConfiguração eletrônica: 3\n")
+elif z == 83:
+    print("\nNome: Bismuto \nSímbolo: [Bi] \nTipo: Metal de transição \nNº atômico: 83 \nNº de prótons/elétrons: 83 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 84:
+    print("\nNome: Polônio \nSímbolo: [Po] \nTipo: Metal de transição \nNº atômico: 84 \nNº de prótons/elétrons: 84 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 85:
+    print("\nNome: Astato \nSímbolo: [At] \nTipo: Metal de transição \nNº atômico: 85 \nNº de prótons/elétrons: 85 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 86:
+    print("\nNome: Radônio \nSímbolo: [Rn] \nTipo: Metal de transição \nNº atômico: 86 \nNº de prótons/elétrons: 86 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 87:
+    print("\nNome: Frâncio \nSímbolo: [Fr] \nTipo: Metal \nNº atômico: 87 \nNº de prótons/elétrons: 87 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 88:
+    print("\nNome: Rádio \nSímbolo: [Ra] \nTipo: Semimetal \nNº atômico: 88 \nNº de prótons/elétrons: 88 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 89:
+    print("\nNome: Actínio \nSímbolo: [Ac] \nTipo: Semimetal \nNº atômico: 89 \nNº de prótons/elétrons: 89 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 90:
+    print("\nNome: Tório \nSímbolo: [Th] \nTipo: Ametal \nNº atômico: 90 \nNº de prótons/elétrons: 90 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 91:
+    print("\nNome: Protactínio \nSímbolo: [Pa] \nTipo: Halogênio \nNº atômico: 91 \nNº de prótons/elétrons: 91 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 92:
+    print("\nNome: Urânio \nSímbolo: [U] \nTipo: Gás nobre \nNº atômico: 92 \nNº de prótons/elétrons: 92 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 93:
+    print("\nNome: Netúnio \nSímbolo: [Np] \nTipo: Metal alcalino \nNº atômico: 93 \nNº de prótons/elétrons: 93 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 94:
+    print("\nNome: Plutônio \nSímbolo: [Pu] \nTipo: Metal alcalino-terroso \nNº atômico: 94 \nNº de prótons/elétrons: 94 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 95:
+    print("\nNome: Amerício \nSímbolo: [Am] \nTipo: Metal de transição \nNº atômico: 95 \nNº de prótons/elétrons: 95 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 96:
+    print("\nNome: Cúrio \nSímbolo: [Cm] \nTipo: Metal de transição \nNº atômico: 96 \nNº de prótons/elétrons: 96 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 97:
+    print("\nNome: Berquélio \nSímbolo: [Bk] \nTipo: Metal de transição \nNº atômico: 97 \nNº de prótons/elétrons: 97 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 98:
+    print("\nNome: Califórnio \nSímbolo: [Cf] \nTipo: Metal de transição \nNº atômico: 98 \nNº de prótons/elétrons: 98 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 99:
+    print("\nNome: Einsténio \nSímbolo: [Es] \nTipo: Metal de transição \nNº atômico: 99 \nNº de prótons/elétrons: 99 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 100:
+    print("\nNome: Férmio \nSímbolo: [Fm] \nTipo: Metal de transição \nNº atômico: 100 \nNº de prótons/elétrons: 100 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 101:
+    print("\nNome: Mendelévio \nSímbolo: [Md] \nTipo: Metal de transição \nNº atômico: 101 \nNº de prótons/elétrons: 101 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 102:
+    print("\nNome: Nobélio \nSímbolo: [No] \nTipo: Metal de transição \nNº atômico: 102 \nNº de prótons/elétrons: 102 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 103:
+    print("\nNome: Laurêncio \nSímbolo: [Lr] \nTipo: Metal de transição \nNº atômico: 103 \nNº de prótons/elétrons: 103 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 104:
+    print("\nNome: Rutherfórdio \nSímbolo: [Rf] \nTipo: Metal de transição \nNº atômico: 104 \nNº de prótons/elétrons: 104 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 105:
+    print("\nNome: Dúbnio \nSímbolo: [Db] \nTipo: Metal \nNº atômico: 105 \nNº de prótons/elétrons: 105 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 106:
+    print("\nNome: Seabórgio \nSímbolo: [Sg] \nTipo: Metal \nNº atômico: 106 \nNº de prótons/elétrons: 106 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 107:
+    print("\nNome: Bóhrio \nSímbolo: [Bh] \nTipo: Semimetal de transição \nNº atômico: 107 \nNº de prótons/elétrons: 107 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 108:
+    print("\nNome: Hássio \nSímbolo: [Hs] \nTipo: Metal de transição \nNº atômico: 108 \nNº de prótons/elétrons: 108 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 109:
+    print("\nNome: Meitnério \nSímbolo: [Mt] \nTipo: Metal de transição \nNº atômico: 109 \nNº de prótons/elétrons: 109 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 110:
+    print("\nNome: Darmstádio \nSímbolo: [Ds] \nTipo: Metal de transição \nNº atômico: 110 \nNº de prótons/elétrons: 110 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 111:
+    print("\nNome: Roentgênio \nSímbolo: [Rg] \nTipo: Metal de transição \nNº atômico: 111 \nNº de prótons/elétrons: 111 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 112:
+    print("\nNome: Copernício \nSímbolo: [Cn] \nTipo: Metal de transição \nNº atômico: 112 \nNº de prótons/elétrons: 112 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 113:
+    print("\nNome: Nihônio \nSímbolo: [Nh] \nTipo: Metal de transição \nNº atômico: 113 \nNº de prótons/elétrons: 113 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 114:
+    print("\nNome: Fleróvio \nSímbolo: [Fl] \nTipo: Metal de transição \nNº atômico: 114 \nNº de prótons/elétrons: 114 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 115:
+    print("\nNome: Moscóvio \nSímbolo: [Mc] \nTipo: Metal de transição \nNº atômico: 115 \nNº de prótons/elétrons: 115 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 116:
+    print("\nNome: Livermório \nSímbolo: [Lv] \nTipo: Metal \nNº atômico: 116 \nNº de prótons/elétrons: 116 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
+elif z == 117:
+    print("\nNome: Tenessino \nSímbolo: [Ts] \nTipo: Metal \nNº atômico: 117 \nNº de prótons/elétrons: 117 \nMassa molecular: u \nConfiguração eletrônica: \n")
+elif z == 118:
+    print("\nNome: Oganessônio \nSímbolo: [Og] \nTipo: Semimetal de transição \nNº atômico: 118 \nNº de prótons/elétrons: 118 \nMassa molecular: u \nConfiguração eletrônica: \n")
