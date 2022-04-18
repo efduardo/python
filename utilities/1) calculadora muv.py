@@ -1,18 +1,11 @@
 #Esta é uma calculadora para movimentos uniformemente variados (MUV).
 
 import math
-print("O que você precisa encontrar?")
-print("\n1) Velocidade final [m/s]")
-print("2) Velocidade inicial [m/s]")
-print("3) Posição final [m]")
-print("4) Posição inicial [m]")
-print("5) Aceleração [m/s²]")
-print("6) Tempo [s]")
+print("O que você precisa encontrar? \n1) Velocidade final [m/s] \n2) Velocidade inicial [m/s] \n3) Posição final [m] \n4) Posição inicial [m] \n5) Aceleração [m/s²] n\6) Tempo [s]")
 faltante = int(input("\nDigite o número do que você deseja encontrar: "))
 if faltante == 1: #v
     tem = print("\nO que você tem?")
-    print("\n1) Velocidade inicial, aceleração e tempo")
-    print("2) Velocidade inicial, aceleração e deslocamento")
+    print("\n1) Velocidade inicial, aceleração e tempo \n2) Velocidade inicial, aceleração e deslocamento")
     resptem = int(input("\nDigite o número do que você tem: "))
     if resptem == 1:
         v0 = float(input("\nDigite a velocidade inicial(em m/s): "))
@@ -31,9 +24,7 @@ if faltante == 1: #v
         print("\nAlgo deu errado!")
 elif faltante == 2: #v0
     tem = print("\nO que você tem?")
-    print("\n1) Velocidade final, aceleração e tempo")
-    print("2) Velocidade final, aceleração e deslocamento")
-    print("3) Tempo, aceleração e deslocamento")
+    print("\n1) Velocidade final, aceleração e tempo \n2) Velocidade final, aceleração e deslocamento \n3) Tempo, aceleração e deslocamento")
     resptem = int(input("\nDigite o número do que você tem: "))
     if resptem == 1:
         v = float(input("\nDigite a velocidade final(em m/s): "))
@@ -58,8 +49,7 @@ elif faltante == 2: #v0
         print("\nAlgo deu errado!")
 elif faltante == 3: #s
     tem = print("\nO que você tem?")
-    print("\n1) Posição inicial, velocidade inicial, tempo e aceleração")
-    print("2) Velocidade final, velocidade inicial, aceleração e posição inicial")
+    print("\n1) Posição inicial, velocidade inicial, tempo e aceleração \n2) Velocidade final, velocidade inicial, aceleração e posição inicial")
     resptem = int(input("\nDigite o número do que você tem: "))
     if resptem == 1:
         s0 = float(input("\nDigite a posição inicial(em m): "))
@@ -79,8 +69,7 @@ elif faltante == 3: #s
         print("\nAlgo deu errado!")
 elif faltante == 4: #s0
     tem = print("\nO que você tem?")
-    print("\n1) Posição final, velocidade inicial, tempo e aceleração")
-    print("2) Velocidade final, velocidade inicial, aceleração e posição final")
+    print("\n1) Posição final, velocidade inicial, tempo e aceleração \n2) Velocidade final, velocidade inicial, aceleração e posição final")
     resptem = int(input("\nDigite o número do que você tem: "))
     if resptem == 1:
         s = float(input("\nDigite a posição final(em m): "))
@@ -100,9 +89,7 @@ elif faltante == 4: #s0
         print("\nAlgo deu errado!")
 elif faltante == 5: #a
     tem = print("\nO que você tem?")
-    print("\n1) Deslocamento, velocidade inicial e tempo")
-    print("2) Deslocamento, velocidade final e velocidade inicial")
-    print("3) Velocidade final, velocidade inicial e tempo")
+    print("\n1) Deslocamento, velocidade inicial e tempo \n2) Deslocamento, velocidade final e velocidade inicial \n3) Velocidade final, velocidade inicial e tempo")
     resptem = int(input("\nDigite o número do que você tem: "))
     if resptem == 1:
         ds = float(input("\nDigite o deslocamento(em m): "))
@@ -126,8 +113,7 @@ elif faltante == 5: #a
         print("\nAlgo deu errado!")
 elif faltante == 6: #t
     tem = print("\nO que você tem?")
-    print("\n1) Deslocamento, velocidade inicial e aceleração")
-    print("2) Velocidade final, velocidade inicial e aceleração")
+    print("\n1) Deslocamento, velocidade inicial e aceleração \n2) Velocidade final, velocidade inicial e aceleração")
     resptem = int(input("\nDigite o número do que você tem: "))
     if resptem == 1:
         ds = float(input("\nDigite o deslocamento(em m): "))
