@@ -1,8 +1,11 @@
 #Esta é uma calculadora para movimentos uniformemente variados (MUV).
 
 import math
+
 print("O que você precisa encontrar? \n1) Velocidade final [m/s] \n2) Velocidade inicial [m/s] \n3) Posição final [m] \n4) Posição inicial [m] \n5) Aceleração [m/s²] n\6) Tempo [s]")
+
 faltante = int(input("\nDigite o número do que você deseja encontrar: "))
+
 if faltante == 1: #v
     tem = print("\nO que você tem?")
     print("\n1) Velocidade inicial, aceleração e tempo \n2) Velocidade inicial, aceleração e deslocamento")
