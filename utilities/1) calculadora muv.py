@@ -138,4 +138,4 @@ elif faltante == 6: #t
     elif resptem != 1 or resptem != 2:
         print("\nAlgo deu errado!")
 elif faltante != 1 or faltante != 2 or faltante != 3 or faltante != 4 or faltante != 5 or faltante != 6:
-        print("\nAlgo deu errado!")
+    print("\nAlgo deu errado!")
