@@ -5,5 +5,5 @@ entrada2 = int(input("Digite putro número inteiro: "))
 
 if entrada1 < entrada2:
     print(1)
-elif entrada1 >= entrada2:
+else:
     print(0)
