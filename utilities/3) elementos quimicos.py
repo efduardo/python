@@ -239,6 +239,6 @@ while 1 <= z <= 118:
         print("\nNome: Livermório \nSímbolo: [Lv] \nTipo: Metal \nNº atômico: 116 \nNº de prótons/elétrons: 116 \nMassa molecuclar: u \nConfiguração eletrônica: \n")
     elif z == 117:
         print("\nNome: Tenessino \nSímbolo: [Ts] \nTipo: Metal \nNº atômico: 117 \nNº de prótons/elétrons: 117 \nMassa molecular: u \nConfiguração eletrônica: \n")
-    elif z == 118:
+    else:
         print("\nNome: Oganessônio \nSímbolo: [Og] \nTipo: Semimetal de transição \nNº atômico: 118 \nNº de prótons/elétrons: 118 \nMassa molecular: u \nConfiguração eletrônica: \n")
     break
