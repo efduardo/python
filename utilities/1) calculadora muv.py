@@ -23,7 +23,7 @@ if faltante == 1: #v
         v2 = (v0**2 + 2*a*ds)
         v = math.sqrt(v2)
         print("\nA velocidade final é", v, "[m/s]")
-    elif resptem != 1 or resptem != 2:
+    else:
         print("\nAlgo deu errado!")
 elif faltante == 2: #v0
     tem = print("\nO que você tem?")
@@ -48,7 +48,7 @@ elif faltante == 2: #v0
         ds = float(input("Digite o deslocamento(em m): "))
         v0 = (ds - (a*t**2)/2)/t
         print("\nA velocidade inicial é", v0, "[m/s]")
-    elif resptem != 1 or resptem != 2 or resptem != 3:
+    else:
         print("\nAlgo deu errado!")
 elif faltante == 3: #s
     tem = print("\nO que você tem?")
@@ -68,7 +68,7 @@ elif faltante == 3: #s
         s0 = float(input("Digite a posição inicial(em m): "))
         s = (v**2 - v0**2 + 2*a*s0)/2*a
         print("\nA posição final é", s, "[m]")
-    elif resptem != 1 or resptem != 2:
+    else:
         print("\nAlgo deu errado!")
 elif faltante == 4: #s0
     tem = print("\nO que você tem?")
@@ -88,7 +88,7 @@ elif faltante == 4: #s0
         s = float(input("Digite a posição final(em m): "))
         s0 = (v**2 - v0**2 - 2*a*s)/2*a
         print("\nA posição inicial é", s0, "[m]")
-    elif resptem != 1 or resptem != 2:
+    else:
         print("\nAlgo deu errado!")
 elif faltante == 5: #a
     tem = print("\nO que você tem?")
@@ -112,7 +112,7 @@ elif faltante == 5: #a
         t = float(input("Digite o tempo(em s): "))
         a = (v - v0)/t
         print("\nA aceleração é", a, "[m/s²]")
-    elif resptem != 1 or resptem != 2 or resptem != 3:
+    else:
         print("\nAlgo deu errado!")
 elif faltante == 6: #t
     tem = print("\nO que você tem?")
@@ -127,7 +127,7 @@ elif faltante == 6: #t
         t = (-v0 + raizdedelta)/a
         if t >= 0:
             print("\nO tempo é", t, "[s]")
-        elif t < 0:
+        else:
             print("\nO resultado é um número negativo. Logo, não convém usá-lo")  
     elif resptem == 2:
         v = float(input("\nDigite a velocidade final(em m/s): "))
@@ -136,9 +136,9 @@ elif faltante == 6: #t
         t = (v - v0)/a
         if t >= 0:
             print("\nO tempo é", t, "[s]")
-        elif t < 0:
+        else:
             print("\nO resultado é um número negativo. Logo, não convém usá-lo")
-    elif resptem != 1 or resptem != 2:
+    else:
         print("\nAlgo deu errado!")
-elif faltante != 1 or faltante != 2 or faltante != 3 or faltante != 4 or faltante != 5 or faltante != 6:
+else:
     print("\nAlgo deu errado!")
