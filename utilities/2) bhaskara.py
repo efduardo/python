@@ -15,6 +15,6 @@ while delta >= 0:
     x2 = (- b - raizdedelta)/(2*a)
     if raizdedelta > 0:
         print("\nOs possíveis valores de x são", x1, "e", x2)
-    elif raizdedelta == 0:
+    else:
         print("\nA função possui raiz biquadrada igual a", x1)
     break
