@@ -7,5 +7,5 @@ if entrada1 > entrada2:
     print("O maior número é", entrada1)
 elif entrada1 < entrada2:
     print("O maior número é", entrada2)
-elif entrada1 == entrada2:
+else:
     print("Ambos os números são idênticos e iguais a", entrada1)
