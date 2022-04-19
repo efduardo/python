@@ -6,6 +6,6 @@ entrada1 = int(input("Digite o número total de maçãs: "))
 entrada2 = int(input("Digite o número de alunos: "))
 restodadivisao = (entrada1 % entrada2)
 
-while entrada1 >= 0 and entrada2 >0:
+while entrada1 >= 0 and entrada2 > 0:
   print("A quantia de maçãs a serem entregues na secretaria é", restodadivisao)
   break
