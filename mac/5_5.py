@@ -12,6 +12,6 @@ while total <= n:
     total += i
     a = i - 1
 
-sn = (1 + a)*a/2 #PA: Sn = (A1 + An)*n/2
+sn = (1 + a)*a/2
 
 print("A maior soma de números naturais é", int(sn))
