@@ -7,7 +7,7 @@ n = int(input("Digite um número inteiro: "))
 total = 0
 i = 0
 
-while total <= n and n > 0:
+while total <= n:
     i += 1
     total += i
     a = i - 1
