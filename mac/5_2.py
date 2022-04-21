@@ -1,4 +1,4 @@
-#Este é um programa que recebe 3 números inteiros e os imprime em ordem decrescente
+#Este é um programa que recebe 3 números inteiros e os imprime em ordem decrescente.
 
 entrada1 = int(input("Digite um número inteiro: "))
 entrada2 = int(input("Digite outro número inteiro: "))
