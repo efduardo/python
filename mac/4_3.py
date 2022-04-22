@@ -2,4 +2,5 @@
 
 variavel1 = int(input("Digite um número inteiro: "))
 variavel2 = int(input("Digite outro número inteiro: "))
+
 auxiliar = print(variavel2, variavel1)
