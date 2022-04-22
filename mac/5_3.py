@@ -4,10 +4,9 @@ anguloa = int(input("Digite o valor do primeiro ângulo: "))
 angulob = int(input("Digite o valor do segundo ângulo: "))
 anguloc = int(input("Digite o valor do terceiro ângulo: "))
 
-while anguloa > 0 and angulob > 0 and anguloc > 0:
-    
-    soma = anguloa + angulob + anguloc
+soma = anguloa + angulob + anguloc
 
+while anguloa > 0 and angulob > 0 and anguloc > 0:
     if soma == 180:
         print("Sim!", anguloa, angulob, anguloc)
     else:
