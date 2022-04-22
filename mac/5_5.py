@@ -10,8 +10,8 @@ i = 0
 while total <= n:
     i += 1
     total += i
-    a = i - 1
+    maior = i - 1
 
-sn = (1 + a)*a/2
+sn = (1 + maior)*maior/2
 
 print("A maior soma de números naturais é", int(sn))
