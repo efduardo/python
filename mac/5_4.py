@@ -7,7 +7,6 @@ ladob = int(input("Digite o valor do segundo lado: "))
 ladoc = int(input("Digite o valor do terceiro lado: "))
 
 while ladoa > 0 and ladob > 0 and ladoc > 0:
-
     if  ladoa**2 == ladob**2 + ladoc**2:
         print(1, ladoa**2)
     elif ladob**2 == ladoa**2 + ladoc**2:
