@@ -21,8 +21,10 @@ if faltante == 1: #v
         a = float(input("Digite a aceleração(em m/s²): "))
         ds = float(input("Digite o deslocamento(em m): "))
         v2 = (v0**2 + 2*a*ds)
-        v = math.sqrt(v2)
-        print("\nA velocidade final é", v, "[m/s]")
+        while v2 >= 0:
+            v = math.sqrt(v2)
+            print("\nA velocidade final é", v, "[m/s]")
+            break
     else:
         print("\nAlgo deu errado!")
 elif faltante == 2: #v0
@@ -40,8 +42,9 @@ elif faltante == 2: #v0
         a = float(input("Digite a aceleração(em m/s²): "))
         ds = float(input("Digite o deslocamento(em m): "))
         v02 = (v0**2 + 2*a*ds)
-        v0 = math.sqrt(v02)
-        print("\nA velocidade inicial é", v0, "[m/s]")
+        while v02 >= 0:
+            v0 = math.sqrt(v02)
+            print("\nA velocidade inicial é", v0, "[m/s]")
     elif resptem == 3:
         t = float(input("\nDigite o tempo(em s): "))
         a = float(input("Digite a aceleração(em m/s²): "))
@@ -123,12 +126,13 @@ elif faltante == 6: #t
         v0 = float(input("Digite a velocidade inicial(em m/s): "))
         a = float(input("Digite a aceleração(em m/s²): "))
         delta = (v0**2 + 2*a*ds)
-        raizdedelta = math.sqrt(delta)
-        t = (-v0 + raizdedelta)/a
-        if t >= 0:
-            print("\nO tempo é", t, "[s]")
-        else:
-            print("\nO resultado é um número negativo. Logo, não convém usá-lo")  
+        while delta >= 0:
+            raizdedelta = math.sqrt(delta)
+            t = (-v0 + raizdedelta)/a
+                if t >= 0:
+                    print("\nO tempo é", t, "[s]")
+                else:
+                    print("\nO resultado é um número negativo. Logo, não convém usá-lo")  
     elif resptem == 2:
         v = float(input("\nDigite a velocidade final(em m/s): "))
         v0 = float(input("Digite a velocidade inicial(em m/s): "))
