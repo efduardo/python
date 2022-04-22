@@ -2,7 +2,7 @@
 
 import math
 
-print("O que você precisa encontrar? \n1) Velocidade final [m/s] \n2) Velocidade inicial [m/s] \n3) Posição final [m] \n4) Posição inicial [m] \n5) Aceleração [m/s²] n\6) Tempo [s]")
+print("O que você precisa encontrar? \n1) Velocidade final [m/s] \n2) Velocidade inicial [m/s] \n3) Posição final [m] \n4) Posição inicial [m] \n5) Aceleração [m/s²] \n6) Tempo [s]")
 
 faltante = int(input("\nDigite o número do que você deseja encontrar: "))
 
@@ -45,6 +45,7 @@ elif faltante == 2: #v0
         while v02 >= 0:
             v0 = math.sqrt(v02)
             print("\nA velocidade inicial é", v0, "[m/s]")
+            break
     elif resptem == 3:
         t = float(input("\nDigite o tempo(em s): "))
         a = float(input("Digite a aceleração(em m/s²): "))
@@ -129,10 +130,11 @@ elif faltante == 6: #t
         while delta >= 0:
             raizdedelta = math.sqrt(delta)
             t = (-v0 + raizdedelta)/a
-                if t >= 0:
-                    print("\nO tempo é", t, "[s]")
-                else:
-                    print("\nO resultado é um número negativo. Logo, não convém usá-lo")  
+            if t >= 0:
+                print("\nO tempo é", t, "[s]")
+            else:
+                print("\nO resultado é um número negativo. Logo, não convém usá-lo")
+            break
     elif resptem == 2:
         v = float(input("\nDigite a velocidade final(em m/s): "))
         v0 = float(input("Digite a velocidade inicial(em m/s): "))
