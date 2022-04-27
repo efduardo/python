@@ -5,7 +5,7 @@ n = int(input("Digite um número inteiro positivo: "))
 i = 1
 p = 0
 
-while (n >= 0) and p <= n:
+while (n >= 0) and (p <= n):
     i += 2
     p += 2
 
