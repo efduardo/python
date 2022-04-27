@@ -20,4 +20,4 @@ else:
     t = (n + 1)/2
     an = 1 + (t - 1)*2
     sn = (1 + an) * (t / 2)
-    print(int(sn))
+    print(int("A soma dos ímpares é", sn))
