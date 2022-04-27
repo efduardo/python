@@ -4,8 +4,8 @@
 
 n = int(input("Digite um número inteiro: "))
 
-total = 0
 i = 0
+total = 0
 
 while total <= n:
     i += 1
