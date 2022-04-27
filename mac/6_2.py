@@ -1,6 +1,6 @@
 #Este programa solicita que o usuário digite um inteiro positivo n, então implementa um laço (while) que computa a soma dos n primeiros números pares até o número digitado, imprimindo a soma final. O inteiro 0 é tomado como o primeiro número par.
 
-n = int(input())
+n = int(input("Digite um número inteiro positivo: "))
 
 i = 1
 p = 0
