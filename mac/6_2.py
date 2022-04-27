@@ -8,7 +8,6 @@ p = 0
 while (n >= 0) and (i != p) and p <= n:
     i += 2
     p += 2
-    a = p - 2
 
 t = int((n / 2) + 1)
 an = 0 + (t - 1)*2
