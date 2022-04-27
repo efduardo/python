@@ -13,4 +13,4 @@ t = int((n / 2) + 1)
 an = 0 + (t - 1)*2
 sn = (0 + an) * (t / 2)
 
-print(int(sn))
+print(int("A soma dos pares é", sn))
