@@ -12,8 +12,8 @@ while (n > 0) and (i != p) and (i <= n):
 
 if p == n:
     t = n/2
-    an = 1 + (t-1)*2
-    sn = (1 + an)*t/2
+    an = 1 + (t - 1)*2
+    sn = (1 + an) * (t / 2)
     print(int(sn))
 else:
     a += 1
