@@ -9,6 +9,6 @@ while (n != 0):
     n = (n - resto)//10
     soma += resto
     
-unidade = soma%10
+unidade = soma % 10
 
 print(soma, unidade)
