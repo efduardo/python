@@ -14,7 +14,6 @@ while delta >= 0:
     raizdedelta = math.sqrt(delta)
     x1 = (- b + raizdedelta)/(2*a)
     x2 = (- b - raizdedelta)/(2*a)
-    
     if raizdedelta > 0:
         print("\nOs possíveis valores de x são", x1, "e", x2)
     else:
