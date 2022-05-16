@@ -8,5 +8,5 @@ entrada2 = int(input("Digite o número de alunos: "))
 inteirodadivisao = (entrada1 // entrada2)
 
 while entrada1 >= 0 and entrada2 > 0:
-  print("O número de maçãs a serem entregues a cada aluno é", inteirodadivisao)
+  print("O número de maçãs a ser entregue a cada aluno é", inteirodadivisao)
   break
